@@ -1,0 +1,283 @@
+/*======================================
+            TEAL OCEAN THEME
+        Made by: Mayra #170501
+======================================*/
+
+/* Background */
+
+body {
+    background:
+        linear-gradient(
+            rgba(0,35,38,.78),
+            rgba(0,20,24,.82)
+        ),
+        url("https://raw.githubusercontent.com/cajolaismylia2-collab/Wolvden-theme/main/IMG_3579.jpg")
+        center center fixed !important;
+
+    background-size: cover !important;
+
+    color: #d8f7f7 !important;
+}
+
+/* Main Content */
+
+#main,
+.container.main,
+.container {
+    background: transparent !important;
+}
+
+/* Cards & Panels */
+
+.card,
+.table,
+.box,
+.alert,
+.breadcrumb,
+.feature,
+.dropdown-menu,
+.modal-content {
+
+    background: rgba(0,28,32,.82) !important;
+
+    border: 1px solid rgba(40,180,180,.45) !important;
+
+    box-shadow:
+        0 0 18px rgba(0,180,180,.35),
+        0 0 40px rgba(0,45,55,.6) !important;
+
+    backdrop-filter: blur(4px);
+}
+
+/* Headers */
+
+.card-header,
+th {
+
+    background:
+        linear-gradient(
+            90deg,
+            #008b8b,
+            #003d46
+        ) !important;
+
+    color: #d9ffff !important;
+
+    border: none !important;
+
+    text-shadow:
+        0 0 10px #58ffff,
+        0 0 20px #008b8b;
+}
+
+/* Tables */
+
+.table {
+    color: #d8f7f7 !important;
+}
+
+.table td,
+.table th {
+    border-color: rgba(40,180,180,.25) !important;
+}
+
+/* Navigation */
+
+.navbar {
+
+    background: rgba(0,20,24,.95) !important;
+
+    border-bottom: 1px solid rgba(40,180,180,.4) !important;
+
+    box-shadow: 0 0 25px rgba(0,180,180,.45);
+}
+
+.navbar a,
+.nav-link {
+    color: #d9ffff !important;
+}
+
+.navbar a:hover,
+.nav-link:hover {
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 10px #5ffcff,
+        0 0 20px #00d9d9;
+}
+
+/* Text */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: #e6ffff !important;
+
+    text-shadow:
+        0 0 10px #5ffcff,
+        0 0 22px #008b8b;
+}
+
+p,
+span,
+div,
+td {
+
+    color: #d8f7f7 !important;
+}
+
+/* Links */
+
+a {
+    color: #8cf8ff !important;
+}
+
+a:hover {
+
+    color: #ffffff !important;
+
+    text-shadow:
+        0 0 10px #66ffff,
+        0 0 20px #00d9d9;
+}
+
+/* Buttons */
+
+.btn,
+button,
+input[type="submit"] {
+
+    background:
+        linear-gradient(
+            180deg,
+            #00a8a8,
+            #005d66
+        ) !important;
+
+    border: 1px solid #66f2f2 !important;
+
+    color: #f2ffff !important;
+
+    box-shadow:
+        0 0 18px rgba(0,200,200,.45);
+}
+
+.btn:hover,
+button:hover,
+input[type="submit"]:hover {
+
+    background:
+        linear-gradient(
+            #1fdcdc,
+            #008b8b
+        ) !important;
+
+    box-shadow:
+        0 0 30px rgba(90,255,255,.75);
+
+    color: white !important;
+}
+
+/* Inputs */
+
+input,
+textarea,
+select {
+
+    background: rgba(0,25,30,.92) !important;
+
+    border: 1px solid rgba(70,220,220,.45) !important;
+
+    color: #ecffff !important;
+}
+
+/* Footer */
+
+footer {
+
+    background: rgba(0,20,24,.95) !important;
+
+    border-top: 1px solid rgba(40,180,180,.4) !important;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #00171a;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background:
+        linear-gradient(
+            #18d7d7,
+            #00656d
+        );
+
+    border-radius: 20px;
+}
+
+/* Wolvden Den Boxes */
+
+.left,
+.right,
+.cave-grid,
+.den-box,
+.user-box {
+
+    background: rgba(0,28,32,.82) !important;
+
+    border: 1px solid rgba(40,180,180,.35) !important;
+
+    box-shadow:
+        0 0 18px rgba(0,180,180,.35);
+}
+
+/* Hover Effects */
+
+.card:hover,
+.table:hover {
+
+    box-shadow:
+        0 0 30px rgba(90,255,255,.55),
+        0 0 50px rgba(0,120,120,.45) !important;
+}
+
+/* Credit */
+
+html::before {
+    content: "Made by: Mayra #170501";
+    position: fixed;
+    top: 10px;
+    right: 15px;
+
+    padding: 6px 12px;
+
+    background: rgba(0,28,32,.9);
+
+    border: 1px solid rgba(40,180,180,.45);
+
+    border-radius: 10px;
+
+    color: #d9ffff;
+
+    font-size: 12px;
+
+    text-shadow:
+        0 0 8px #5ffcff;
+
+    box-shadow:
+        0 0 12px rgba(0,180,180,.45);
+
+    z-index: 9999;
+
+    pointer-events: none;
+  }
